@@ -1,0 +1,19 @@
+# criar ambiante virtual(venv) do Python
+python -m venv .venv
+
+# versão python
+pthon -- version
+
+# ativar ambiante virtual
+.venv <tab> s <tab> a 
+
+# listar pacotes instalados no ambiante virtual
+pip freeze
+
+# instalar pacotes
+pip install(pacotes)
+ou
+pip install -r requirements.txt
+
+# atualizar pip
+python -m pip install --upgrade pip
